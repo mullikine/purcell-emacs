@@ -46,9 +46,9 @@
 
   (defalias 'hindent-mode 'hindent-on-save-mode))
 
-(after-load 'haskell-mode
-  (define-key haskell-mode-map (kbd "C-c h") 'hoogle)
-  (define-key haskell-mode-map (kbd "C-o") 'open-line))
+;; (after-load 'haskell-mode
+;;   (define-key haskell-mode-map (kbd "C-c h") 'hoogle)
+;;   (define-key haskell-mode-map (kbd "C-o") 'open-line))
 
 
 (after-load 'page-break-lines
