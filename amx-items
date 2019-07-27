@@ -1,0 +1,17 @@
+
+;; ----- amx-history -----
+(
+ kill-emacs
+ package-install
+ R
+ e
+ g
+ ag
+ cd
+)
+
+;; ----- amx-data -----
+(
+ (package-install . 1)
+ (kill-emacs . 2)
+)
