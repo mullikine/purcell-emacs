@@ -13,5 +13,5 @@
 ;; ----- amx-data -----
 (
  (package-install . 1)
- (kill-emacs . 7)
+ (kill-emacs . 8)
 )
