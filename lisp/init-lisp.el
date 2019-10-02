@@ -251,11 +251,11 @@
   (add-hook 'emacs-lisp-mode-hook 'highlight-quoted-mode))
 
 
-(when (maybe-require-package 'flycheck)
-  (require-package 'flycheck-package)
-  (after-load 'flycheck
-    (after-load 'elisp-mode
-      (flycheck-package-setup))))
+;; (when (maybe-require-package 'flycheck)
+;;   (require-package 'flycheck-package)
+;;   (after-load 'flycheck
+;;     (after-load 'elisp-mode
+;;       (flycheck-package-setup))))
 
 
 
